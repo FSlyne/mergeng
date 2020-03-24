@@ -1,0 +1,22 @@
+
+
+Compile
+make clean
+make
+
+Usage:
+./man -interval=10 -grant=10 -slot=1152 -prob=10 -run=100
+
+
+1. Served_traffic_conf_1 2 3 4
+These files have the values of served traffic vs offered traffic and 1,2,3,4 shows the Traffic class
+
+2. Delayed_traffic_1 2 3 4
+These files have the values of latency vs offered traffic and 1,2,3,4 shows the Traffic class
+
+3. Final_allocation_map shows the final mapping of each request as per VNO_ID in final BW map
+
+4. Create the graphs from 
+served_traffic_conf_1 2 3 4
+delayed_traffic_1 2 3 4
+
